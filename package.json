@@ -1,6 +1,6 @@
 {
   "name": "react-async-input",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "wrap React inputs so that asynchrous updates don't cause the cursor to jump",
   "main": "index.js",
   "peerDependencies": {
