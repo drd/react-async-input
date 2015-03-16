@@ -3,9 +3,15 @@
 Wrap React inputs so that asynchrous updates don't cause the cursor to jump
 around.
 
-## Warning! Old and unmaintained!
+## Warning! Not Perfect!
 
-I haven't been keeping up with React/maintaining anything that uses it, so this library is compatible with React **0.9.x**. It **may or may not work with new versions of React**. If you use React and this library, send a PR and I will grant you ownership of the package on npm.
+Under very rapid keyboard input and/or network jitter conditions, this will still fail to do what you want. See these two fiddles for more:
+
+http://jsfiddle.net/yrmmbjm1/1/
+
+http://jsfiddle.net/yrmmbjm1/4/
+
+I hope to work out a better way to handle all of this soon.
 
 ## Synopsis
 
